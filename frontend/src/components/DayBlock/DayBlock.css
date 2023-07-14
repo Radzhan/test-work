@@ -1,0 +1,15 @@
+.day {
+	box-sizing: border-box;
+  width: 15px;
+  height: 15px;
+}
+
+.day:hover {
+	border: 1px solid rgba(0, 0, 0, 0.50);
+}
+
+.day:active {
+	border: 1px solid rgba(0, 0, 0, 0.90);
+}
+
+

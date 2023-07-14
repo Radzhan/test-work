@@ -1,0 +1,65 @@
+.year {
+  display: flex;
+  align-items: flex-start;
+}
+
+.menu {
+  display: flex;
+  margin-left: 18px;
+}
+
+.months {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.month {
+  margin: 0 23px;
+  color: #959494;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.menu p {
+  color: #959494;
+  font-family: Inter;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.colors {
+  display: flex;
+  gap: 2px;
+  margin: 0 8px;
+  align-items: center;
+}
+
+.days {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-right: 5px;
+}
+
+.days h4 {
+  color: #959494;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.calendar {
+  max-width: 867px;
+  display: flex;
+  gap: 2px;
+  flex-wrap: wrap;
+}
